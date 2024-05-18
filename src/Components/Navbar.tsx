@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 import logo from "../images/logo.png";
 
 const Navbar = () => {
@@ -11,6 +12,7 @@ const Navbar = () => {
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <FaLinkedin />
         <FaGithub />
+        <SiGmail />
       </div>
     </nav>
   );
