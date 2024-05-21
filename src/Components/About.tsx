@@ -12,8 +12,8 @@ const About = () => {
             <img className="rounded-2xl w-[60%] border-4" src={cat} alt="cat" />
           </div>
         </div>
-        <div className="w-full lg:w-1/2">
-          <div className="flex justify-center lg:justify-start">
+        <div className="w-full lg:w-1/2 flex items-center">
+          <div className="flex  justify-center lg:justify-start">
             <p className="my-2 max-w-xl py-6">
               I am a dedicated and versatile Full Stack Developer with a passion
               for creating efficent and user-friendly web applications. I
@@ -25,7 +25,7 @@ const About = () => {
               project-based learning and real-world simulations. Acquired
               knowledge of version control systems such as Git and proficiency
               in scrum/AGILE framework simulating a work environment (daily
-              stand-ups, code reviews, group presentations)
+              stand-ups, code reviews, group presentations).
             </p>
           </div>
         </div>
