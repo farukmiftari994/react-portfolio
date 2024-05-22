@@ -12,7 +12,7 @@ const Hero = () => {
             <span className="bg-gradient-to-r from-sky-200 via-white-300 to-blue-300 bg-clip-text text-3xl tracking-tight text-transparent">
               Full Stack Developer
             </span>
-            <p className="my-2 max-w-lg py-2 font-light text-xl tracking-tighter">
+            <p className="my-2 max-w-lg py-2 text-lg tracking-tighter">
               I'm a recent graduate from Code Academy Berlin with skills in both
               front-end and back-end development. I specialize in crafting
               responsive web applications and thrive on solving complex problems
@@ -22,9 +22,9 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/4 flex">
-          <div className="flex">
+          <div className="flex justify-center">
             <img
-              className="border-4 rounded-[70px] border-blue-200 "
+              className="border-4 rounded-2xl border-blue-200 sm:w-[60%] lg:w-[100%]"
               src={profile}
               alt="Faruk Miftari"
             />
