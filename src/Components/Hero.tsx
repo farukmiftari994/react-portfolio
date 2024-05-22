@@ -1,10 +1,11 @@
-import profile from "../images/faruk.png";
+import { HERO_CONTENT } from "../constants/index.ts";
+import hero from "../assets/hero.png";
 
 const Hero = () => {
   return (
-    <div className=" flex border-b border-neutral-900 pb-4 lg:mb-35">
+    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap justify-around">
-        <div className="w-full lg:w-1/3 flex justify-center align-center">
+        <div className="w-full lg:w-2/4 flex justify-center items-center">
           <div className="flex flex-col items-center lg:items-start lg:justify-center">
             <h1 className="pb-16 text-6xl tracking-tight lg:text-6xl">
               Faruk Miftari
@@ -13,19 +14,15 @@ const Hero = () => {
               Full Stack Developer
             </span>
             <p className="my-2 max-w-lg py-2 text-lg tracking-tighter">
-              I'm a recent graduate from Code Academy Berlin with skills in both
-              front-end and back-end development. I specialize in crafting
-              responsive web applications and thrive on solving complex problems
-              with innovative technologies. Eager to contribute to collaborative
-              development team.
+              {HERO_CONTENT}
             </p>
           </div>
         </div>
-        <div className="w-full lg:w-1/4 flex">
-          <div className="flex justify-center">
+        <div className="w-full lg:w-1/2 lg:p-8">
+          <div className="flex items-center justify-center">
             <img
-              className="border-4 rounded-2xl border-blue-200 sm:w-[60%] lg:w-[100%]"
-              src={profile}
+              className="border-4 rounded-2xl w-[60%]"
+              src={hero}
               alt="Faruk Miftari"
             />
           </div>

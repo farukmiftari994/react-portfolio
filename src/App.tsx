@@ -1,7 +1,9 @@
 import About from "./Components/About";
+import Contact from "./Components/Contact";
 import Experience from "./Components/Experience";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
+import Projects from "./Components/Projects";
 import Technologies from "./Components/Technologies";
 
 const App = () => {
@@ -17,7 +19,12 @@ const App = () => {
         <About />
         <Technologies />
         <Experience />
+        <Projects />
+        <Contact />
       </div>
+      <p className="text-center text-sm py-2">
+        © 2024 Faruk Miftari. All rights reserved.
+      </p>
     </div>
   );
 };
