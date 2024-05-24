@@ -25,6 +25,7 @@ const App = () => {
       <p className="text-center text-sm py-2">
         © 2024 Faruk Miftari. All rights reserved.
       </p>
+      {/* <div data-theme="light">This div will always use light theme</div> */}
     </div>
   );
 };
