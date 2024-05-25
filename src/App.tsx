@@ -14,18 +14,12 @@ const App = () => {
   };
   return (
     <div className={`${darkMode && "dark"}`}>
-      <button
-        className="absolute w-16 h-16 bottom-16 right-16 bg-neutral-900 dark:bg-white rounded-full text-white dark:text-black font-semibold"
-        onClick={toggleDarkMode}
-      >
-        {darkMode ? "LHT" : "DRK"}
-      </button>
       <div className="overflow-x-hidden text-neutral-950 antialiased selection:bg-cyan-300 selection:text-cyan-900 dark:text-neutral-300">
         <div className="fixed top-0 -z-10">
           <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-200 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] dark:bg-neutral-950"></div>
         </div>
         <div className="container mx-auto px-8">
-          <Navbar darkMode={darkMode} />
+          <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
           <Hero darkMode={darkMode} />
           <About />
           <Technologies darkMode={darkMode} />
