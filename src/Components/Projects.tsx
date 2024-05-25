@@ -18,7 +18,9 @@ const Projects = () => {
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
               <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <p className="mb-3 text-neutral-400">{project.description}</p>
+              <p className="mb-3 text-neutral-800 dark:text-neutral-400">
+                {project.description}
+              </p>
               <a
                 href={project.githubRepo}
                 className="mb-3 font-bold text-blue-400 block
@@ -30,7 +32,7 @@ const Projects = () => {
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="mr-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-blue-300"
+                  className="mr-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-white dark:text-blue-300"
                 >
                   {tech}
                 </span>

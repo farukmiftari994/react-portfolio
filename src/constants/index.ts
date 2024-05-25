@@ -64,8 +64,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Johannisthaler Chaussee 372",
-  phoneNo: "+4917665812691",
+  phoneNo: "+49 176 658 126 91",
   email: "farukmiftari@outlook.com",
   gmail: "farukmiftari994@gmail.com",
 };
