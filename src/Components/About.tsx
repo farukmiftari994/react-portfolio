@@ -1,5 +1,5 @@
 import { ABOUT_TEXT } from "../constants/index.ts";
-import about from "../assets/hero.png";
+import about from "../assets/about.jpg";
 
 const About = () => {
   return (
