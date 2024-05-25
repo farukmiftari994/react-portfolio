@@ -13,7 +13,7 @@ for creating efficent and user-friendly web applications. I
 completed an intensive training in Full Stack Development,
 covering Front-End technologies such as HTML, CSS, JavaScript, and
 React, as well as Back-End technologies including Node.js,
-Express, and databases like MongoDB. Gained hands-on experience in
+Express.js, and databases like MongoDB. Gained hands-on experience in
 building dynamic, interactive web applications through
 project-based learning and real-world simulations. Acquired
 knowledge of version control systems such as Git and proficiency
@@ -38,7 +38,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Travel Buddy App",
+    title: "Travel Buddy App ( Collaborative Project )",
     image: travelbuddy,
     description: `Travel Buddy is a social networking platform designed for travelers seeking companionship on their journeys. Built with Next.js, this innovative mobile application allows users to create personalized accounts and connect with like-minded individuals. By matching profiles based on shared travel interests, preferences, and destinations, Travel Buddy makes it easy for users to find travel partners who are a perfect fit.`,
     githubRepo: "https://github.com/farukmiftari994/travelbuddy-app",
