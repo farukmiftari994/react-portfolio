@@ -1,6 +1,12 @@
 import i18n from "i18next";
 import languageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
+import {
+  HERO_CONTENT_EN,
+  HERO_CONTENT_DE,
+  ABOUT_TEXT_EN,
+  ABOUT_TEXT_DE,
+} from "./constants";
 
 i18n
   .use(languageDetector)
@@ -12,15 +18,17 @@ i18n
       en: {
         translation: {
           heroTitle: "Full Stack Developer",
-          heroContent:
-            "I'm a recent graduate from Code Academy Berlin with skills in both front-end and back-end development. I specialize in crafting responsive web applications and thrive on solving complex problems with innovative technologies. Eager to contribute to collaborative development team.",
+          heroContent: `${HERO_CONTENT_EN}`,
+          aboutTitle: "About Me",
+          aboutContent: `${ABOUT_TEXT_EN}`,
         },
       },
       de: {
         translation: {
           heroTitle: "Full Stack Entwickler",
-          heroContent:
-            "Ich bin ein kürzlich graduierter Absolvent der Code Academy Berlin mit Fähigkeiten sowohl im Front-End- als auch im Back-End-Entwicklung. Ich spezialisiere mich auf die Erstellung responsiver Webanwendungen und blühe auf, wenn es darum geht, komplexe Probleme mit innovativen Technologien zu lösen. Ich freue mich darauf, zu einem kollaborativen Entwicklungsteam beizutragen.",
+          heroContent: `${HERO_CONTENT_DE}`,
+          aboutTitle: "Über mich",
+          aboutContent: `${ABOUT_TEXT_DE}`,
         },
       },
     },

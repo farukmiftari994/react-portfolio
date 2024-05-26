@@ -1,4 +1,3 @@
-import { HERO_CONTENT } from "../constants/index.ts";
 import hero from "../assets/hero.png";
 import { useTranslation } from "react-i18next";
 

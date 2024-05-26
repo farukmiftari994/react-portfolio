@@ -2,13 +2,15 @@ import travelbuddy from "../assets/projects/travelbuddy.jpg";
 import soccer from "../assets/projects/soccer.jpg";
 import movies from "../assets/projects/movies.png";
 
-export const HERO_CONTENT = ` I'm a recent graduate from Code Academy Berlin with skills in both
+export const HERO_CONTENT_EN = ` I'm a recent graduate from Code Academy Berlin with skills in both
 front-end and back-end development. I specialize in crafting
 responsive web applications and thrive on solving complex problems
 with innovative technologies. Eager to contribute to collaborative
 development team.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile Full Stack Developer with a passion
+export const HERO_CONTENT_DE = `Ich bin ein kürzlich graduierter Absolvent der Code Academy Berlin mit Fähigkeiten sowohl im Front-End- als auch im Back-End-Entwicklung. Ich spezialisiere mich auf die Erstellung responsiver Webanwendungen und blühe auf, wenn es darum geht, komplexe Probleme mit innovativen Technologien zu lösen. Ich freue mich darauf, zu einem kollaborativen Entwicklungsteam beizutragen.`;
+
+export const ABOUT_TEXT_EN = `I am a dedicated and versatile Full Stack Developer with a passion
 for creating efficent and user-friendly web applications. I
 completed an intensive training in Full Stack Development,
 covering Front-End technologies such as HTML, CSS, JavaScript, and
@@ -19,6 +21,8 @@ project-based learning and real-world simulations. Acquired
 knowledge of version control systems such as Git and proficiency
 in scrum/AGILE framework simulating a work environment (daily
 stand-ups, code reviews, group presentations).`;
+
+export const ABOUT_TEXT_DE = `Ich bin ein engagierter und vielseitiger Full Stack Developer mit einer Leidenschaft für die Erstellung effizienter und benutzerfreundlicher Webanwendungen. Ich habe eine intensive Ausbildung im Bereich Full Stack Development absolviert, die Front-End-Technologien wie HTML, CSS, JavaScript und React sowie Back-End-Technologien wie Node.js, Express.js und Datenbanken wie MongoDB abdeckte. Ich habe praktische Erfahrungen im Aufbau dynamischer, interaktiver Webanwendungen durch projektbasiertes Lernen und realitätsnahe Simulationen gesammelt. Außerdem habe ich Kenntnisse in Versionskontrollsystemen wie Git erworben und bin versiert im Scrum/AGILE-Framework, das ein Arbeitsumfeld simuliert (tägliche Stand-ups, Code-Reviews, Gruppenpräsentationen).`;
 
 export const EXPERIENCES = [
   {
