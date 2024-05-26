@@ -1,7 +1,10 @@
 import { HERO_CONTENT } from "../constants/index.ts";
 import hero from "../assets/hero.png";
+import { useTranslation } from "react-i18next";
 
 const Hero = ({ darkMode }: { darkMode: boolean }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap justify-around">
@@ -12,11 +15,11 @@ const Hero = ({ darkMode }: { darkMode: boolean }) => {
             </h1>
             {darkMode && "dark" ? (
               <span className="bg-gradient-to-r font-semibold from-sky-200 via-white-300 to-blue-300 bg-clip-text text-3xl tracking-tight text-transparent">
-                Full Stack Developer
+                {t("heroSpan")}
               </span>
             ) : (
               <span className="bg-gradient-to-r font-semibold from-sky-600 via-white-300 to-blue-700 bg-clip-text text-3xl tracking-tight text-transparent">
-                Full Stack Developer
+                {t("heroSpan")}
               </span>
             )}
             <p className="my-2 max-w-lg py-2 text-lg tracking-tighter">

@@ -12,6 +12,7 @@ const App = () => {
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };
+
   return (
     <div className={`${darkMode && "dark"}`}>
       <div className="overflow-x-hidden text-neutral-950 antialiased selection:bg-cyan-300 selection:text-cyan-900 dark:text-neutral-300">
