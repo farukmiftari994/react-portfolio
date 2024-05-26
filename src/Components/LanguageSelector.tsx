@@ -1,8 +1,12 @@
+import Flag from "react-flagkit";
 import { useTranslation } from "react-i18next";
 
+const gb = <Flag country="GB" />;
+const de = <Flag country="DE" />;
+
 const languages = [
-  { code: "en", lang: "Enlgish" },
-  { code: "de", lang: "Deutsch" },
+  { code: "en", lang: gb },
+  { code: "de", lang: de },
 ];
 
 const LanguageSelector = () => {
