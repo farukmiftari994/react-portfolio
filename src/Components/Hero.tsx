@@ -15,15 +15,15 @@ const Hero = ({ darkMode }: { darkMode: boolean }) => {
             </h1>
             {darkMode && "dark" ? (
               <span className="bg-gradient-to-r font-semibold from-sky-200 via-white-300 to-blue-300 bg-clip-text text-3xl tracking-tight text-transparent">
-                {t("heroSpan")}
+                {t("heroTitle")}
               </span>
             ) : (
               <span className="bg-gradient-to-r font-semibold from-sky-600 via-white-300 to-blue-700 bg-clip-text text-3xl tracking-tight text-transparent">
-                {t("heroSpan")}
+                {t("heroTitle")}
               </span>
             )}
             <p className="my-2 max-w-lg py-2 text-lg tracking-tighter">
-              {HERO_CONTENT}
+              {t("heroContent")}
             </p>
           </div>
         </div>
