@@ -10,12 +10,12 @@ interface experience {
 
 const Experience = ({ darkMode }: { darkMode: boolean }) => {
   const { t } = useTranslation();
-  const EXPERIENCE = t("experienceEn");
+  const EXPERIENCE = t("experience");
   const array = Object.values(EXPERIENCE) as unknown as experience[];
 
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl">{t("experience")}</h1>
+      <h1 className="my-20 text-center text-4xl">{t("experienceTitle")}</h1>
       <div>
         {array.map((experience, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">

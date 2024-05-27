@@ -22,7 +22,7 @@ const Technologies = ({ darkMode }: { darkMode: boolean }) => {
 
   return (
     <div className="border-b border-neutral-800 pb-24">
-      <h1 className="my-20 text-center text-4xl">{t("technologies")}</h1>
+      <h1 className="my-20 text-center text-4xl">{t("technologiesTitle")}</h1>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div className="rounded-2xl border-4 border-neutral-400 dark:border-neutral-800 p-4">
           <DiHtml5 className="text-7xl text-orange-600" />

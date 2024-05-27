@@ -56,7 +56,7 @@ export const EXPERIENCES_DE = [
   },
 ];
 
-export const PROJECTS = [
+export const PROJECTS_EN = [
   {
     title: "Travel Buddy App ( Collaborative Project )",
     image: travelbuddy,
@@ -77,7 +77,32 @@ export const PROJECTS = [
   {
     title: "Movie World",
     image: movies,
-    description: `The "Movie World" - project is website made with React, Bootstrap, Firebase, and a movie API. Users can sign up and explore more features. They can easily check out the latest movies and popular ones too, thanks to the movie API. When users sign in, they can make their own list of favourite movies. They can add or remove movies whenever they want. And with Firebase, user logins are safe, so each person's favorite movie list stays private.`,
+    description: `The "Movie World" - Project is a website made with React, Bootstrap, Firebase, and a movie API. Users can sign up and explore more features. They can easily check out the latest movies and popular ones too, thanks to the movie API. When users sign in, they can make their own list of favourite movies. They can add or remove movies whenever they want. And with Firebase, user logins are safe, so each person's favorite movie list stays private.`,
+    githubRepo: "https://github.com/farukmiftari994/Movie_Project",
+    technologies: ["HTML", "CSS", "React", "Bootstrap", "Firebase"],
+  },
+];
+
+export const PROJECTS_DE = [
+  {
+    title: "Travel Buddy App ( Gemeinschaftsprojekt )",
+    image: travelbuddy,
+    description: `Travel Buddy ist eine soziale Netzwerkplattform für Reisende, die auf der Suche nach Begleitung auf ihren Reisen sind. Diese innovative mobile Anwendung, entwickelt mit Next.js, ermöglicht es Nutzern, personalisierte Konten zu erstellen und sich mit Gleichgesinnten zu vernetzen. Durch das Abgleichen von Profilen basierend auf gemeinsamen Reiseinteressen, Vorlieben und Reisezielen macht Travel Buddy es den Nutzern leicht, passende Reisebegleiter zu finden.`,
+    githubRepo: "https://github.com/farukmiftari994/travelbuddy-app",
+    technologies: ["HTML", "CSS", "Next.js", "GraphQL", "MongoDB"],
+  },
+  {
+    title: "Soccer World",
+    image: soccer,
+    description: `Dieses Projekt ist eine Webanwendung, die mit dem MERN-Stack (MongoDB, Express.js, React, Node.js) entwickelt wurde und sich auf die Erstellung und Verwaltung von Fußballspielerkarten konzentriert. Die Anwendung ermöglicht es einem Administrator, einzigartige Spielerkarten zu erstellen, die Details wie den Namen des Spielers, seine Position, sein Team und seine Statistiken enthalten. Nutzer können die Karten durchsuchen und auswählen, um sie zu ihrer persönlichen Sammlung hinzuzufügen. Jede Spielerkarte kann jedoch nur von einem Nutzer gleichzeitig besessen werden. Sobald ein Nutzer eine Karte beansprucht, ist sie für andere nicht mehr verfügbar. Dies stellt sicher, dass jede Sammlung einzigartig und exklusiv für jeden Nutzer bleibt. Das System wahrt die Integrität und Einzigartigkeit der Karten und bietet Fußballbegeisterten ein wettbewerbsorientiertes und spannendes Erlebnis, um ihre Lieblingsspieler zu sammeln und vorzuführen.`,
+    githubRepo: "https://github.com/farukmiftari994/Soccer_World_Project_MERN",
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Express.js"],
+  },
+
+  {
+    title: "Movie World",
+    image: movies,
+    description: `Das "Movie World" - Projekt ist eine Website, die mit React, Bootstrap, Firebase und einer Film-API entwickelt wurde. Nutzer können sich anmelden und weitere Funktionen erkunden. Dank der Film-API können sie sich ganz einfach die neuesten Filme und auch beliebte Filme ansehen. Wenn sich Nutzer anmelden, können sie ihre eigene Liste mit Lieblingsfilmen erstellen. Sie können Filme jederzeit hinzufügen oder entfernen. Mit Firebase sind die Anmeldungen der Nutzer sicher, sodass die Favoritenliste jeder Person privat bleibt.`,
     githubRepo: "https://github.com/farukmiftari994/Movie_Project",
     technologies: ["HTML", "CSS", "React", "Bootstrap", "Firebase"],
   },

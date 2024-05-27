@@ -6,12 +6,14 @@ import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
 import Technologies from "./Components/Technologies";
+import { useTranslation } from "react-i18next";
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };
+  const { t } = useTranslation();
 
   return (
     <div className={`${darkMode && "dark"}`}>
@@ -28,9 +30,7 @@ const App = () => {
           <Projects />
           <Contact />
         </div>
-        <p className="text-center text-sm py-2">
-          © 2024 Faruk Miftari. All rights reserved.
-        </p>
+        <p className="text-center text-sm py-2">{t("allRights")}</p>
       </div>
     </div>
   );

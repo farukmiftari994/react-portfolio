@@ -1,11 +1,24 @@
-import { PROJECTS } from "../constants";
+import { useTranslation } from "react-i18next";
+
+interface projects {
+  title: string;
+  description: string;
+  githubRepo: string;
+  image: string;
+  technologies: [];
+}
 
 const Projects = () => {
+  const { t } = useTranslation();
+  const PROJECT = t("projects");
+  const array = Object.values(PROJECT) as unknown as projects[];
+  console.log("array :>> ", array);
+
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl">Projects</h1>
+      <h1 className="my-20 text-center text-4xl">{t("projectsTitle")}</h1>
       <div>
-        {PROJECTS.map((project, index) => (
+        {array.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <div className="w-full lg:w-1/4">
               <img
