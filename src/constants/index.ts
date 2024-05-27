@@ -8,7 +8,7 @@ responsive web applications and thrive on solving complex problems
 with innovative technologies. Eager to contribute to collaborative
 development team.`;
 
-export const HERO_CONTENT_DE = `Ich bin ein kürzlich graduierter Absolvent der Code Academy Berlin mit Fähigkeiten sowohl im Front-End- als auch im Back-End-Entwicklung. Ich spezialisiere mich auf die Erstellung responsiver Webanwendungen und blühe auf, wenn es darum geht, komplexe Probleme mit innovativen Technologien zu lösen. Ich freue mich darauf, zu einem kollaborativen Entwicklungsteam beizutragen.`;
+export const HERO_CONTENT_DE = `Ich bin ein kürzlich graduierter Absolvent der Code Academy Berlin mit Fähigkeiten sowohl im Front End als auch in der Back End Entwicklung. Ich spezialisiere mich auf die Erstellung responsiver Webanwendungen und blühe auf, wenn es darum geht, komplexe Probleme mit innovativen Technologien zu lösen. Ich freue mich darauf, zu einem kollaborativen Entwicklungsteam beizutragen.`;
 
 export const ABOUT_TEXT_EN = `I am a dedicated and versatile Full Stack Developer with a passion
 for creating efficent and user-friendly web applications. I
@@ -22,9 +22,9 @@ knowledge of version control systems such as Git and proficiency
 in scrum/AGILE framework simulating a work environment (daily
 stand-ups, code reviews, group presentations).`;
 
-export const ABOUT_TEXT_DE = `Ich bin ein engagierter und vielseitiger Full Stack Developer mit einer Leidenschaft für die Erstellung effizienter und benutzerfreundlicher Webanwendungen. Ich habe eine intensive Ausbildung im Bereich Full Stack Development absolviert, die Front-End-Technologien wie HTML, CSS, JavaScript und React sowie Back-End-Technologien wie Node.js, Express.js und Datenbanken wie MongoDB abdeckte. Ich habe praktische Erfahrungen im Aufbau dynamischer, interaktiver Webanwendungen durch projektbasiertes Lernen und realitätsnahe Simulationen gesammelt. Außerdem habe ich Kenntnisse in Versionskontrollsystemen wie Git erworben und bin versiert im Scrum/AGILE-Framework, das ein Arbeitsumfeld simuliert (tägliche Stand-ups, Code-Reviews, Gruppenpräsentationen).`;
+export const ABOUT_TEXT_DE = `Ich bin ein engagierter und vielseitiger Full Stack Developer mit einer Leidenschaft für die Erstellung effizienter und benutzerfreundlicher Webanwendungen. Ich habe eine intensive Schulung ( Bootcamp ) im Bereich Full Stack Development erfolgreich absolviert, die Front End Technologien wie HTML, CSS, JavaScript und React sowie Back End Technologien wie Node.js, Express.js und Datenbanken wie MongoDB abdeckte. Ich habe praktische Erfahrungen im Aufbau dynamischer, interaktiver Webanwendungen durch projektbasiertes Lernen und realitätsnahe Simulationen gesammelt. Außerdem habe ich Kenntnisse in Versionskontrollsystemen wie Git erworben und bin versiert im scrum/AGILE-Framework, das ein Arbeitsumfeld simuliert (tägliche Stand-ups, Code-Reviews, Gruppenpräsentationen).`;
 
-export const EXPERIENCES = [
+export const EXPERIENCES_EN = [
   {
     year: "May 2019 - Aug 2021",
     role: "Math Teacher",
@@ -37,6 +37,22 @@ export const EXPERIENCES = [
     role2: "Warehouse Assistant",
     organization: `LC WAIKIKI`,
     location: "Skopje, North Macedonia",
+  },
+];
+
+export const EXPERIENCES_DE = [
+  {
+    year: "Mai 2019 - Aug 2021",
+    role: "Mathematiklehrer",
+    organization: `Gymnasium - "Marija Kiri Skllodovska"`,
+    location: "Skopje, Nordmazedonien",
+  },
+  {
+    year: "Okt 2017 - Jan 2019",
+    role: "Verkäufer",
+    role2: "Lagerhausassistent",
+    organization: `LC WAIKIKI`,
+    location: "Skopje, Nordmazedonien",
   },
 ];
 

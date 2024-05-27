@@ -6,6 +6,8 @@ import {
   HERO_CONTENT_DE,
   ABOUT_TEXT_EN,
   ABOUT_TEXT_DE,
+  EXPERIENCES_EN,
+  EXPERIENCES_DE,
 } from "./constants";
 
 i18n
@@ -13,6 +15,8 @@ i18n
   .use(initReactI18next)
   .init({
     debug: true,
+    fallbackLng: "en",
+    returnObjects: true,
     lng: "en",
     resources: {
       en: {
@@ -21,6 +25,9 @@ i18n
           heroContent: `${HERO_CONTENT_EN}`,
           aboutTitle: "About Me",
           aboutContent: `${ABOUT_TEXT_EN}`,
+          technologies: "Technologies",
+          experience: "Work Experience",
+          experienceEn: EXPERIENCES_EN,
         },
       },
       de: {
@@ -29,6 +36,9 @@ i18n
           heroContent: `${HERO_CONTENT_DE}`,
           aboutTitle: "Über mich",
           aboutContent: `${ABOUT_TEXT_DE}`,
+          technologies: "Technologien",
+          experience: "Arbeitserfahrung",
+          experienceEn: EXPERIENCES_DE,
         },
       },
     },
