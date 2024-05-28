@@ -1,6 +1,7 @@
 import i18n from "i18next";
 import languageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
+
 import {
   HERO_CONTENT_EN,
   HERO_CONTENT_DE,
@@ -19,7 +20,6 @@ i18n
     debug: true,
     fallbackLng: "en",
     returnObjects: true,
-    lng: "en",
     resources: {
       en: {
         translation: {

@@ -9,7 +9,7 @@ const Hero = ({ darkMode }: { darkMode: boolean }) => {
       <div className="flex flex-wrap justify-around">
         <div className="w-full lg:w-2/4 flex justify-center items-center">
           <div className="flex flex-col items-center lg:items-start lg:justify-center">
-            <h1 className="pb-16 text-6xl tracking-tight lg:text-6xl">
+            <h1 className="pb-16 text-5xl tracking-tight lg:text-6xl">
               Faruk Miftari
             </h1>
             {darkMode && "dark" ? (

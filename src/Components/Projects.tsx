@@ -12,7 +12,6 @@ const Projects = () => {
   const { t } = useTranslation();
   const PROJECT = t("projects");
   const array = Object.values(PROJECT) as unknown as projects[];
-  console.log("array :>> ", array);
 
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -41,7 +40,6 @@ const Projects = () => {
               >
                 Github Repo
               </a>
-
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}

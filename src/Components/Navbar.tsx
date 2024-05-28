@@ -11,12 +11,12 @@ const Navbar = ({
   toggleDarkMode: () => void;
 }) => {
   return (
-    <nav className="mt-[-40px] mb-20 flex items-center justify-between py-2">
-      <div className="flex flex-shrink-0 items-center ">
+    <nav className=" mb-20 flex items-center justify-between py-2">
+      <div className="flex  items-center ">
         {darkMode && "dark" ? (
-          <img className="w-48" src={logo2} alt="logo" />
+          <img className="w-20 sm:w-40" src={logo2} alt="logo" />
         ) : (
-          <img className="w-48" src={logo} alt="logo" />
+          <img className="w-20 sm:w-40" src={logo} alt="logo" />
         )}
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">

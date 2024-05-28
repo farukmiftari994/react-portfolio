@@ -9,8 +9,12 @@ import Technologies from "./Components/Technologies";
 import { useTranslation } from "react-i18next";
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const storedDarkMode = localStorage.getItem("dark-mode");
+  const initialDarkMode =
+    storedDarkMode !== null ? JSON.parse(storedDarkMode) : false;
+  const [darkMode, setDarkMode] = useState(initialDarkMode);
   const toggleDarkMode = () => {
+    localStorage.setItem("dark-mode", JSON.stringify(!darkMode));
     setDarkMode(!darkMode);
   };
   const { t } = useTranslation();

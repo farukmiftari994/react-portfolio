@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Flag from "react-flagkit";
 import { useTranslation } from "react-i18next";
 
@@ -12,13 +13,23 @@ const languages = [
 const LanguageSelector = () => {
   const { i18n } = useTranslation();
 
-  const changeLanguage = (lng: string | undefined) => {
+  const changeLanguage = (lng: string) => {
     try {
       i18n.changeLanguage(lng);
+      localStorage.setItem("language", lng);
     } catch (error) {
       console.log("error :>> ", error);
     }
   };
+
+  useEffect(() => {
+    // Retrieve language preference from localStorage
+    const storedLanguage = localStorage.getItem("language");
+    if (storedLanguage) {
+      i18n.changeLanguage(storedLanguage);
+    }
+  }, []);
+
   return (
     <div>
       {languages.map((lng) => {
