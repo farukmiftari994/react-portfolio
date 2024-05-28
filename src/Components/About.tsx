@@ -1,4 +1,4 @@
-import about from "../assets/about.jpg";
+import about from "../assets/hero.png";
 import { useTranslation } from "react-i18next";
 
 const About = () => {

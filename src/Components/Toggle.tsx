@@ -1,7 +1,7 @@
 const Toggle = ({ toggleDarkMode }: { toggleDarkMode: () => void }) => {
   return (
     <div>
-      <label className="flex cursor-pointer gap-2">
+      <label className="flex cursor-pointer gap-2 items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"

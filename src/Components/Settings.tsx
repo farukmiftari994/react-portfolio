@@ -6,11 +6,11 @@ const Settings = ({ toggleDarkMode }: { toggleDarkMode: () => void }) => {
   return (
     <div className="dropdown dropdown-left">
       <div tabIndex={0}>
-        <FiSettings />
+        <FiSettings className="hover:text-red-700 cursor-pointer" />
       </div>
       <ul
         tabIndex={0}
-        className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+        className="dropdown-content z-[1] menu p-2 shadow rounded-box w-52  bg-blue-400"
       >
         <li>
           <Toggle toggleDarkMode={toggleDarkMode} />

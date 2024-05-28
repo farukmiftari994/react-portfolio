@@ -13,6 +13,9 @@ import {
   PROJECTS_DE,
 } from "./constants";
 
+import Faruk_Miftari_CV_EN from "../src/assets/cv/Faruk_Miftari_CV_EN.pdf";
+import Faruk_Miftari_CV_DE from "../src/assets/cv/Faruk_Miftari_CV_DE.pdf";
+
 i18n
   .use(languageDetector)
   .use(initReactI18next)
@@ -23,6 +26,8 @@ i18n
     resources: {
       en: {
         translation: {
+          cv: Faruk_Miftari_CV_EN,
+          cvText: "DOWNLOAD MY CV",
           heroTitle: "Full Stack Developer",
           heroContent: `${HERO_CONTENT_EN}`,
           aboutTitle: "About Me",
@@ -38,6 +43,8 @@ i18n
       },
       de: {
         translation: {
+          cv: Faruk_Miftari_CV_DE,
+          cvText: "LEBENSLAUF HERUNTERLADEN",
           heroTitle: "Full Stack Entwickler",
           heroContent: `${HERO_CONTENT_DE}`,
           aboutTitle: "Über mich",
