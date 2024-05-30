@@ -17,10 +17,10 @@ const Projects = () => {
     <section id="projects">
       <div className="border-b border-neutral-900 pb-4">
         <h1 className="my-20 text-center text-4xl">{t("projectsTitle")}</h1>
-        <div>
+        <div className="text-center lg:text-start">
           {array.map((project, index) => (
             <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-              <div className="w-full lg:w-1/4">
+              <div className="w-full lg:w-1/4 flex justify-center lg:block">
                 <img
                   src={project.image}
                   width={150}
@@ -41,14 +41,16 @@ const Projects = () => {
                 >
                   Github Repo
                 </a>
-                {project.technologies.map((tech, index) => (
-                  <span
-                    key={index}
-                    className="mr-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-white dark:text-blue-300"
-                  >
-                    {tech}
-                  </span>
-                ))}
+                <div className="flex flex-wrap justify-center lg:justify-start">
+                  {project.technologies.map((tech, index) => (
+                    <span
+                      key={index}
+                      className="mr-4 mb-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-white dark:text-blue-300"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
           ))}

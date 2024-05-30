@@ -23,7 +23,7 @@ const Hero = ({ darkMode }: { darkMode: boolean }) => {
                   {t("heroTitle")}
                 </span>
               )}
-              <p className="my-2 max-w-lg py-2 text-lg tracking-tighter">
+              <p className="my-2 max-w-lg py-2 text-center lg:text-start text-lg tracking-tighter">
                 {t("heroContent")}
               </p>
             </div>

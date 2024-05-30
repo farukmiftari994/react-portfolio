@@ -19,7 +19,9 @@ const About = () => {
           </div>
           <div className="w-full lg:w-1/2 flex justify-center items-center">
             <div className="flex justify-center lg:justify-start">
-              <p className="my-2 max-w-xl text-lg py-6">{t("aboutContent")}</p>
+              <p className="my-2 max-w-xl text-center lg:text-start text-lg py-6">
+                {t("aboutContent")}
+              </p>
             </div>
           </div>
         </div>
