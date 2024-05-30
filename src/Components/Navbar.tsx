@@ -13,6 +13,7 @@ const Navbar = ({
   toggleDarkMode: () => void;
 }) => {
   const { t } = useTranslation();
+
   return (
     <nav className=" mb-20 flex items-center justify-between py-2">
       <div className="flex  items-center ">
@@ -35,7 +36,6 @@ const Navbar = ({
             {t("cvText")}
           </span>
         </a>
-
         <Settings toggleDarkMode={toggleDarkMode} />
       </div>
     </nav>
