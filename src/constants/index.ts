@@ -109,7 +109,7 @@ export const PROJECTS_DE = [
 ];
 
 export const CONTACT = {
-  phoneNo: "+49 176 658 126 91",
+  phoneNo: "+49 176 65812691",
   email: "farukmiftari@outlook.com",
   gmail: "farukmiftari994@gmail.com",
 };

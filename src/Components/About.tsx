@@ -1,4 +1,3 @@
-import about from "../assets/hero.png";
 import { useTranslation } from "react-i18next";
 
 const About = () => {
@@ -12,7 +11,7 @@ const About = () => {
             <div className="flex items-center justify-center">
               <img
                 className="rounded-2xl border-black dark:border-white w-[60%] border-4"
-                src={about}
+                src=""
                 alt="about"
               />
             </div>
