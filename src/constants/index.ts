@@ -34,7 +34,7 @@ export const EXPERIENCES_EN = [
   {
     year: "Oct 2017 - Jan 2019",
     role: "Sales Assistant",
-    role2: "Warehouse Assistant",
+    role2: "Warehouse Manager",
     organization: `LC WAIKIKI`,
     location: "Skopje, North Macedonia",
   },
@@ -50,7 +50,7 @@ export const EXPERIENCES_DE = [
   {
     year: "Okt 2017 - Jan 2019",
     role: "Verkäufer",
-    role2: "Lagerhausassistent",
+    role2: "Lagerhaus Manager",
     organization: `LC WAIKIKI`,
     location: "Skopje, Nordmazedonien",
   },
