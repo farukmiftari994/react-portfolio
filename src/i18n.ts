@@ -54,7 +54,7 @@ i18n
           experience: EXPERIENCES_DE,
           projectsTitle: "Projekte",
           projects: PROJECTS_DE,
-          contact: "In Kontakt kommen",
+          contact: "Kontakt",
           allRights: "© 2024 Faruk Miftari. Alle Rechte vorbehalten.",
         },
       },
