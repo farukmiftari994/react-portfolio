@@ -28,7 +28,7 @@ export const EXPERIENCES_EN = [
   {
     year: "May 2019 - Aug 2021",
     role: "Math Teacher",
-    organization: `High School - "Marija Kiri Skllodovksa"`,
+    organization: `High School - "Marija Kiri Sklodovksa"`,
     location: "Skopje, North Macedonia",
   },
   {
@@ -43,7 +43,7 @@ export const EXPERIENCES_DE = [
   {
     year: "Mai 2019 - Aug 2021",
     role: "Mathematiklehrer",
-    organization: `Gymnasium - "Marija Kiri Skllodovska"`,
+    organization: `Gymnasium - "Marija Kiri Sklodovska"`,
     location: "Skopje, Nordmazedonien",
   },
   {
