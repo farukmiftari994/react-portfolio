@@ -32,9 +32,9 @@ export const EXPERIENCES_EN = [
     location: "Skopje, North Macedonia",
   },
   {
-    year: "Oct 2017 - Jan 2019",
-    role: "Warehouse Manager",
-    organization: `LC WAIKIKI`,
+    year: "Nov 2017 - Apr 2018",
+    role: "Internship in IT support",
+    organization: `Arena Computers`,
     location: "Skopje, North Macedonia",
   },
 ];
@@ -47,9 +47,9 @@ export const EXPERIENCES_DE = [
     location: "Skopje, Nordmazedonien",
   },
   {
-    year: "Okt 2017 - Jan 2019",
-    role: "Lagerhaus Manager",
-    organization: `LC WAIKIKI`,
+    year: "Nov 2017 - Apr 2018",
+    role: "Praktikum im IT-Support",
+    organization: `Arena Computers`,
     location: "Skopje, Nordmazedonien",
   },
 ];
