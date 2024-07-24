@@ -33,7 +33,7 @@ export const EXPERIENCES_EN = [
   },
   {
     year: "Nov 2017 - Apr 2018",
-    role: "Internship in IT support",
+    role: "Internship in IT Support",
     organization: `Arena Computers`,
     location: "Skopje, North Macedonia",
   },
