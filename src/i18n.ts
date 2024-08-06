@@ -13,8 +13,8 @@ import {
   PROJECTS_DE,
 } from "./constants";
 
-import Faruk_Miftari_CV_EN from "../src/assets/cv/Faruk_Miftari_CV_EN.pdf";
-import Faruk_Miftari_CV_DE from "../src/assets/cv/Faruk_Miftari_CV_DE.pdf";
+import Faruk_Miftari_EN from "../src/assets/cv/Faruk_Miftari_EN.pdf";
+import Faruk_Miftari_DE from "../src/assets/cv/Faruk_Miftari_DE.pdf";
 
 i18n
   .use(languageDetector)
@@ -26,7 +26,7 @@ i18n
     resources: {
       en: {
         translation: {
-          cv: Faruk_Miftari_CV_EN,
+          cv: Faruk_Miftari_EN,
           cvText: "DOWNLOAD MY CV",
           heroTitle: "Full Stack Developer",
           heroContent: `${HERO_CONTENT_EN}`,
@@ -43,7 +43,7 @@ i18n
       },
       de: {
         translation: {
-          cv: Faruk_Miftari_CV_DE,
+          cv: Faruk_Miftari_DE,
           cvText: "LEBENSLAUF HERUNTERLADEN",
           heroTitle: "Full Stack Entwickler",
           heroContent: `${HERO_CONTENT_DE}`,
